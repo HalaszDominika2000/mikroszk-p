@@ -25,10 +25,10 @@ header h1{
     font-size: 400%;
 }
 nav{
-    display: block;    
+    display: block;   /* A displaytulajdonság annak meghatározására szolgál, hogy egy elem hogyan jelenjen meg a weboldalon.*/ 
     padding: 5px;
     margin: 5px; 
-    overflow: hidden;	
+    overflow: hidden;	/* Túlcsordulás le van vágva*/
 }
 nav a{
     text-decoration: none;
