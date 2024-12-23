@@ -29,6 +29,7 @@ nav{
     padding: 5px;
     margin: 5px; 
     overflow: hidden;	/* Túlcsordulás le van vágva*/
+    
 }
 nav a{
     text-decoration: none;
@@ -41,6 +42,9 @@ nav a:hover{
     background-color: #1f7a7a; 
     color: #ffffe6;
     background-image: url("../design/menu.png");
+}
+ul {
+    list-style-type: none; /*a listának a stílusának a típusa*/
 }
 aside{    
     display: block;
@@ -118,11 +122,11 @@ footer a{
     margin: 5px;
     text-align: center;
 }
-#footerlenn{
-    text-align: center;
+#footerlenn{ 
+    text-align: center; /*középre helyez*/
     margin: 5px;
     padding-bottom: 10px;
-    font-size: 85%;
+    font-size: 85%; /*betűméret*/
 }
 .tartalomvege{
     margin-bottom: 0px;
@@ -132,7 +136,7 @@ footer a{
     display: block;
     padding: 10px 10px 10px 10px;
     background-color: #1f7a7a;
-    float: left;
+    float: left; /*képnek az igazítása*/
     width: 326px;
     text-align: center;
 }
@@ -198,6 +202,21 @@ figcaption {
 #eredeti{
     background-color: #ffffe6;
     color: #1f7a7a;
+}
+header {
+    grid-area: "h";
+}
+nav {
+    grid-area: "n";
+}
+section {
+    grid-area: "s"; /*rácsszerkezet elemeinek az elnevezése*/
+}
+article {
+    grid-area: "ar";
+}
+footer {
+    grid-area: "f";
 }
 
 @media screen and (max-width: 768px) {
